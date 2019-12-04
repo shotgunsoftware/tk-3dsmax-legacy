@@ -1,4 +1,7 @@
+> This engine originally was originally hosted at https://github.com/shotgunsoftware/tk-3dsmax. The new engine implementation hosted at that location is the new `pymxs` based engine that will be compatible with 3dsmax 2017 and beyond.
+
 ## Documentation
+
 This repository is a part of the Shotgun Pipeline Toolkit.
 
 - For more information about this app and for release notes, *see the wiki section*.
