@@ -1,4 +1,9 @@
-> This engine originally was originally hosted at https://github.com/shotgunsoftware/tk-3dsmax. The new engine implementation hosted at that location is the new `pymxs` based engine that will be compatible with 3dsmax 2017 and beyond.
+## Deprecation notice
+The legacy tk-3dsmax engine has been deprecated. We recommend that you upgrade your configuration to the new [tk-3dsmax](https://github.com/shotgunsoftware/tk-3dsmax) engine. Versions of 3dsMax 2021 and up will only be supported by the new engine.
+
+Visit [this page](https://developer.shotgunsoftware.com/tk-3dsmax) if you want to learn more on how to migrate your environment to the new engine.
+
+Also, all the hooks that were used with this version of the engine were removed from the `tk-multi-loader`, `tk-multi-snapshot` and `tk-multi-workfiles2` applications. They have been preserved in the `hooks` folder of this repository.
 
 ## Documentation
 
