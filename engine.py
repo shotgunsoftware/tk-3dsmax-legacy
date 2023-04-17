@@ -53,8 +53,8 @@ class MaxEngine(tank.platform.Engine):
         elif max_major_version == 15000:
             # specifically for 2013 which is not officially supported but may work, output a warning:
             self.log_warning("This version of 3ds Max is not officially supported by Toolkit and you may "
-                             "experience instability.  Please contact support@shotgunsoftware.com "
-                             "if you do have any issues.")
+                             "experience instability.  Please contact https://www.autodesk.com/support/ "
+                             "contact-support if you do have any issues.")
 
         try:
             # translate the max version into a year. this line was pulled from
